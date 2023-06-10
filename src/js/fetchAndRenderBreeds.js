@@ -1,6 +1,7 @@
 import { loaderEl, breedSelect } from './index';
 import { fetchBreeds } from './cat-api';
 import { renderBreedsSelect } from './renderBreedsSelect';
+import Notiflix from 'notiflix';
 
 
 const fetchAndRenderBreeds = () => {

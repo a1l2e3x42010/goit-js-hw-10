@@ -24,9 +24,9 @@ function onChangeSelect(event) {
     .then(breed => console.log(breed))
     .catch(error => {
       console.log(error);
-/*       Notiflix.Notify.failure(
+      Notiflix.Notify.failure(
         'Oops! Something went wrong! Try reloading the page!'
-      ); */
+      ); 
     })
     .finally(() => loaderEl.classList.add('unvisible'));
 }
